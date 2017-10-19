@@ -1,0 +1,47 @@
+
+footer#footer * {
+	font-style: italic;
+	
+}
+footer#footer {
+	text-align: center;
+}
+aside h3 + h4 {
+	font-style: italic;
+	color: green;
+}
+
+aside h5 ~ p {
+	font-size: 8pt;
+}
+aside h5[title$=small] {
+	text-decoration: underline;
+}
+
+aside li[name="fork"] {
+	list-style-image: url('https://goo.gl/y0yaro');
+}
+nav *:hover, ul *:hover, li *:hover {
+	color: green;
+}
+p[class="descripcion"]::first-letter {
+	font-size: 22pt;
+	font-weight: bold;
+}
+
+
+
+/*MANTENGA COMENTADA ESTA PARTE HASTA EL FINAL*/
+/*section#left {
+	float:left;
+	width:70%;
+	
+}
+aside#right {
+	float:right;
+	width:25%;
+}
+
+footer#footer {
+	clear:both;
+}*/
